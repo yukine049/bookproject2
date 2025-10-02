@@ -1,5 +1,5 @@
 databases:
-  - name: mysetedb
+  - name: mysitedb
     plan: free
     databaseName: bookproject2
     user: hibari
