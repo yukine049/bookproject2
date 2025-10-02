@@ -10,6 +10,6 @@ class Command(BaseCommand):
         if not User.objects.filter(username='your_name').exists():
             User.objects.create_superuser(
                 username='hibari',
-                email=''
+                email='',
                 password='aaa'
             )
